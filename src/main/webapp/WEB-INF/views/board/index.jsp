@@ -101,7 +101,7 @@ th, td {
 	
 </script>
 <body>
-	<form id="search" action="/list" method="get">
+	<form id="search" action="/list" method="post">
 		<select id="company" name="company_no">
 			<option id = "optionCompany" value=""  ${empty baseInfo.company_no ? "selected" : ""}>업체명</option>
 			<c:forEach items="${company_list}" var="boardVO">
