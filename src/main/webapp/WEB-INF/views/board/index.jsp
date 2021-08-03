@@ -182,8 +182,8 @@ th, td {
 					<td>${boardVO.name}</td>
 					<td>${boardVO.startTime}</td>
 					<td>${boardVO.endTime}</td>
-					<td><img src="http://192.168.0.25${boardVO.startTimePhoto}"/></td>
-					<td><img src="http://192.168.0.25${boardVO.endTimePhoto}"/></td>
+					<td><img width="240" height= "320" src="http://192.168.0.25${boardVO.startTimePhoto}"/></td>
+					<td><img width="240" height= "320" src="http://192.168.0.25${boardVO.endTimePhoto}"/></td>
 				</tr>
 			</c:forEach>
 
